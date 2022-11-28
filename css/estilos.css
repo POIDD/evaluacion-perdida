@@ -1,0 +1,158 @@
+#body{
+    font-size: 20px;
+    color: white;
+    height: 100vh;
+    background-color: blackbr;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+#header{
+    width: 100%;
+    height: 20%;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#section-header1{
+   height: 100%;
+   width: 20%;
+   background-color: black;
+}
+#section-header2{
+    height: 100%;
+    width: 70%;
+    background-color: black; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ #lorem{
+    width: 90%;
+    height: 40%;
+    background-color: #3c3c3e;
+    border-radius: 12px;
+    margin: 30px;
+ }
+
+ 
+ #section-header3{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ #derecha{
+    width: 60%;
+    height: 50%;
+    background-color: #668aff;
+    margin: 20px;
+    
+    border-radius: 22px;
+ }
+
+#contenedor{
+ flex-grow: 1;
+ background-color: black;
+ display: flex;
+ flex-direction: row;
+}
+#aside{
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.contenedores-aside{
+    width: 100%;
+    height: 10%;
+    background-color:#3c3c3e;
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+}
+.icono-aside{
+    width: 30%;
+    height: 100%;
+    background-color: #3c3c3e;
+}
+.letras-aside{
+    width: 80%;
+    height: 100%;
+    background-color: black;
+}
+/*   KJFNDEFJ */
+#contenedora-main{
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+#main{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+  flex-direction: column
+}
+
+#header-main{
+    height: 20%;
+    width: 100%;
+    background-color: black;
+}
+#contenedor-article{
+    flex-grow: 1;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.article2{
+    height: 80%;
+    width:50% ;
+    margin: 12px;
+    border-radius: 5px;
+    background-color: #656160;
+
+}
+.imagen-fea{
+    width: 200px;
+    height: 100px;
+}
+#footer{
+    flex-grow: 1;
+    background-color: #656160;
+    border-radius: 2rem;
+}
+
+#section-derecha{
+    flex-grow: 1;
+    background-color: #696b6c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#contenedor-articlo{
+    width: 90%;
+    height: 60%;
+    background-color:;
+    margin: 40px;
+    flex-direction: column;
+    
+}
+.people{
+    width: 100%;
+    height: 20%;
+    background-color:#696b6c ;
+    margin: 4px;
+}
